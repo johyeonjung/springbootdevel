@@ -14,8 +14,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 1079561326525-pkgpmml0ngl3a5b10i3ifvhcfdaddf5r.apps.googleusercontent.com
-            client-secret: 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
+#            client-id: 1079561326525-pkgpmml0ngl3a5b10i3ifvhcfdaddf5r.apps.googleusercontent.com
+#            client-secret: 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
             scope:
               - email
               - profile
@@ -26,6 +26,6 @@ spring:
     enabled: true
     cache: false  # 개발 중 캐시를 비활성화하여 변경 사항을 즉시 반영하도록 설정
 
-jwt:
-  issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+#jwt:
+#  issuer: ajufresh@gmail.com
+#  secret_key: study-springboot
